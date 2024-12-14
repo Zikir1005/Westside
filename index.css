@@ -1,0 +1,186 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items:center;
+    margin-left:  35px;
+    margin-right:  35px;
+    /* margin-top: 10px; */
+    /* background-color: gray; */
+    
+    
+}
+.search_bar input{
+    border-radius: 20px;
+    height: 35px;
+    width: 450px;
+    margin:auto;
+    color: #f8fdf7;
+    background-color: #f8fdf7;
+    border: 1px solid black;
+    padding-left:2%;
+    
+}
+.links ul{
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    font-size: 20px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.head a{
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-top: 25px;
+    gap: 20px;
+}
+section{
+    margin-left: 430px;
+}
+.container {
+    background: url(https://www.westside.com/cdn/shop/files/C1_09_1920X900_SHOP_WINTERWEAR.jpg?v=1733464205);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+}
+
+.container1 {
+    background: url(https://www.westside.com/cdn/shop/files/C2_01_1920X900_SHOP_MENSWEAR.jpg?v=1733464926);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+}
+
+.container2 {
+    background: url(https://www.westside.com/cdn/shop/files/C3_05_1920X900_SHOP_KIDS_ETHNICWEAR.jpg?v=1733470331);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+}
+
+.container3 {
+    background: url(https://www.westside.com/cdn/shop/files/GLAM-FETISH.gif?v=1733464481);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+}
+
+.container4 {
+    background: url(https://www.westside.com/cdn/shop/files/C4_01_1920X900_WEDDING_EDIT.jpg?v=1733466948);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+}
+
+.container5 {
+    background: url(https://www.westside.com/cdn/shop/files/Christmas-Web-HERO-Banner.gif?v=1732258334);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+}
+/* .container6{
+    background-color: black;
+    height: 450px;
+    display: flex; 
+    size:80px; 
+}
+
+.container6 img{
+       margin-bottom: 20px;
+       padding-left: 10%;
+      }
+      
+.container6 p{
+    color: white;
+    font-size:x-large;
+    padding:120px;
+    padding-left: 10%;
+} */
+.container6 {
+    background: url("https://www.westside.com/cdn/shop/files/WS_Web_Hero_Banner_04_2945ec97-3eb4-4ddd-a080-a58c64aac7d1.jpg?v=1697194912");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+}
+.one h1{
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.one img{
+    display: block;
+    margin: px;
+}
+.container7{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 100px;
+    margin-left: auto;
+
+}
+.container7 h1{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+.container7 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    color: black;
+}
+.two a, .three a{
+    opacity: 0.7;
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.four button{
+    color: white;
+    background-color: black;
+    height: 40px;
+}
+.four p{
+    opacity: 0.7;
+}
+.main{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.three{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container8 a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: gray;
+        font-size: medium;       
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
